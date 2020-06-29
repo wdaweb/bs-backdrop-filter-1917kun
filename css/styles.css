@@ -1,0 +1,61 @@
+
+
+/* 結構區----------------------------------------------------------*/
+
+
+.container> .row{
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+.row>div{
+  border: 1px solid white;
+}
+
+.row:first-child{
+  /* border-top-right-radius: calc(1rem - 1px);
+  border-top-left-radius: calc(1rem - 1px); */
+  border: 0;
+}
+
+
+
+
+/* 效果區 -----------------------------------------------------------*/
+.grayscale {
+  backdrop-filter: grayscale(1);
+}
+
+.brightness {
+  backdrop-filter: brightness(1.5);
+}
+
+.blur {
+  backdrop-filter: blur(5px)
+}
+
+.contrast {
+  backdrop-filter: contrast(0.8)
+}
+
+.invert {
+  backdrop-filter: invert(0.7)
+}
+
+.opacity {
+  backdrop-filter: opacity(0.4)
+}
+
+.sepia {
+  backdrop-filter: sepia(0.4)
+}
+
+.saturate {
+  backdrop-filter: saturate(1.8)
+}
+
+.hue-rotate {
+  backdrop-filter: hue-rotate(120deg)
+}
+
+
